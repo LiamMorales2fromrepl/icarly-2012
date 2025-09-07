@@ -1,0 +1,1137 @@
+@font-face {
+  font-family: "aachen";
+  src: url("https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/fonts/aachen_bt-webfont.eot");
+  src: url("https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/fonts/aachen_bt-webfont.eot#iefix") format("embedded-opentype"), url("https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/fonts/aachen_bt-webfont.woff") format("woff"), url("https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/fonts/aachen_bt-webfont.ttf") format("truetype"), url("https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/fonts/aachen_bt-webfont.svg#webfont") format("svg"); }
+
+body {
+  background-color: #384c8b;
+  font: normal 100% Verdana, Geneva, sans-serif;
+  margin: 0;
+  padding: 0; }
+
+#footer b {
+  font-size: 140%; }
+
+a {
+  text-decoration: none; }
+
+a:active {
+  outline: none; }
+
+a:focus, object:focus {
+  -moz-outline-style: none;
+  outline: none; }
+
+.left_column {
+  float: left; }
+
+.right_column {
+  float: right; }
+
+.fit_more {
+  letter-spacing: -1px; }
+
+.clear {
+  clear: both; }
+
+.open_quote {
+  background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/03/20/43837_459609338.gif');
+  padding-right: 10px;
+  background-repeat: no-repeat;
+  background-position: top left; }
+
+.close_quote {
+  background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/03/20/43823_834618982.gif');
+  padding-left: 10px;
+  background-repeat: no-repeat;
+  background-position: top right; }
+
+.shadowed {
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+  text-shadow: 1px 1px 0 #202a02; }
+
+img {
+  border-width: 0; }
+
+div.pretty_item_box {
+  width: 410px;
+  margin: 0 0 15px 0; }
+  div.pretty_item_box div.pretty_item_box_top {
+    height: 37px;
+    background-repeat: no-repeat; }
+  div.pretty_item_box .pretty_item_box_title {
+    font-size: 17px;
+    font-family: "aachen", verdana, sans-serif;
+    margin-bottom: 4px; }
+  div.pretty_item_box div.pretty_item_box_content {
+    padding: 0 15px 0 30px;
+    background-repeat: repeat-y; }
+    div.pretty_item_box div.pretty_item_box_content div.pretty_item_box_left_column {
+      width: 195px;
+      float: left;
+      font-size: 0.75em; }
+    div.pretty_item_box div.pretty_item_box_content div.pretty_item_box_link {
+      width: 192px; }
+      div.pretty_item_box div.pretty_item_box_content div.pretty_item_box_link div.pretty_item_box_link_top {
+        height: 4px;
+        background-repeat: no-repeat;
+        overflow: hidden; }
+      div.pretty_item_box div.pretty_item_box_content div.pretty_item_box_link div.pretty_item_box_link_content {
+        font-size: 1.3em; }
+      div.pretty_item_box div.pretty_item_box_content div.pretty_item_box_link div.pretty_item_box_link_bottom {
+        height: 4px;
+        overflow: hidden;
+        background-repeat: no-repeat; }
+  div.pretty_item_box div.pretty_item_box_bottom {
+    height: 20px;
+    background-repeat: no-repeat; }
+  div.pretty_item_box a img {
+    display: block;
+    float: right;
+    border-width: 3px;
+    margin: 0 0 20px 10px; }
+
+div.pretty_item_box.pink a img {
+  border: 3px solid #ed1f8f; }
+div.pretty_item_box.pink .pretty_item_box_title {
+  color: #ed1f8f; }
+div.pretty_item_box.pink div.pretty_item_box_top {
+  background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/03/22/26723_4110549845.gif');
+  padding: 0;
+  margin: 0; }
+div.pretty_item_box.pink div.pretty_item_box_content {
+  background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/03/22/26629_285355817.gif'); }
+  div.pretty_item_box.pink div.pretty_item_box_content div.pretty_item_box_link div.pretty_item_box_link_top {
+    background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/03/22/26708_1032578978.gif'); }
+  div.pretty_item_box.pink div.pretty_item_box_content div.pretty_item_box_link div.pretty_item_box_link_content {
+    background-color: #fcebf0; }
+    div.pretty_item_box.pink div.pretty_item_box_content div.pretty_item_box_link div.pretty_item_box_link_content a {
+      color: #ed1f8f;
+      font-weight: bold;
+      text-decoration: underline;
+      font-size: 0.9em;
+      margin-left: 10px; }
+  div.pretty_item_box.pink div.pretty_item_box_content div.pretty_item_box_link div.pretty_item_box_link_bottom {
+    background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/03/22/26695_164811442.gif'); }
+div.pretty_item_box.pink div.pretty_item_box_bottom {
+  background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/03/22/26678_655084993.gif'); }
+
+div.pretty_item_box.orange a img {
+  border: 3px solid #ff6f00; }
+div.pretty_item_box.orange .pretty_item_box_title {
+  color: #ff6f00; }
+div.pretty_item_box.orange div.pretty_item_box_top {
+  background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/03/22/26599_102854144.gif');
+  padding: 0;
+  margin: 0; }
+div.pretty_item_box.orange div.pretty_item_box_content {
+  background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/03/22/26522_1355390793.gif'); }
+  div.pretty_item_box.orange div.pretty_item_box_content div.pretty_item_box_link div.pretty_item_box_link_top {
+    background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/03/22/26579_2102086266.gif'); }
+  div.pretty_item_box.orange div.pretty_item_box_content div.pretty_item_box_link div.pretty_item_box_link_content {
+    background-color: #ffffbc; }
+    div.pretty_item_box.orange div.pretty_item_box_content div.pretty_item_box_link div.pretty_item_box_link_content a {
+      color: #ff6f00;
+      font-weight: bold;
+      text-decoration: underline;
+      font-size: 0.9em;
+      margin-left: 10px; }
+  div.pretty_item_box.orange div.pretty_item_box_content div.pretty_item_box_link div.pretty_item_box_link_bottom {
+    background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/03/22/26563_4098314165.gif'); }
+div.pretty_item_box.orange div.pretty_item_box_bottom {
+  background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/03/22/26547_1221778976.gif'); }
+
+div.pretty_item_box.blue a img {
+  border: 3px solid #384b8b; }
+div.pretty_item_box.blue .pretty_item_box_title {
+  color: #384b8b; }
+div.pretty_item_box.blue div.pretty_item_box_top {
+  background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/03/22/26496_3671892525.gif');
+  padding: 0;
+  margin: 0; }
+div.pretty_item_box.blue div.pretty_item_box_content {
+  background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/03/22/26422_294182387.gif'); }
+  div.pretty_item_box.blue div.pretty_item_box_content div.pretty_item_box_link div.pretty_item_box_link_top {
+    background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/03/22/26480_3598532818.gif'); }
+  div.pretty_item_box.blue div.pretty_item_box_content div.pretty_item_box_link div.pretty_item_box_link_content {
+    background-color: #e6fafe; }
+    div.pretty_item_box.blue div.pretty_item_box_content div.pretty_item_box_link div.pretty_item_box_link_content a {
+      color: #384b8b;
+      font-weight: bold;
+      text-decoration: underline;
+      font-size: 0.9em;
+      margin-left: 10px; }
+  div.pretty_item_box.blue div.pretty_item_box_content div.pretty_item_box_link div.pretty_item_box_link_bottom {
+    background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/03/22/26462_4169431456.gif'); }
+div.pretty_item_box.blue div.pretty_item_box_bottom {
+  background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/03/22/26446_4045039749.gif'); }
+
+div.pretty_item_box.green a img {
+  border: 3px solid #48623f; }
+div.pretty_item_box.green .pretty_item_box_title {
+  color: #315f2e; }
+div.pretty_item_box.green div.pretty_item_box_top {
+  background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/03/29/67094_4178481329.gif');
+  padding: 0;
+  margin: 0; }
+div.pretty_item_box.green div.pretty_item_box_content {
+  background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/03/29/67128_968901544.gif'); }
+  div.pretty_item_box.green div.pretty_item_box_content div.pretty_item_box_link div.pretty_item_box_link_top {
+    background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/03/31/69332_157780315.gif'); }
+  div.pretty_item_box.green div.pretty_item_box_content div.pretty_item_box_link div.pretty_item_box_link_content {
+    background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/03/31/70085_1591209216.gif'); }
+    div.pretty_item_box.green div.pretty_item_box_content div.pretty_item_box_link div.pretty_item_box_link_content a {
+      color: #315f2e;
+      font-weight: bold;
+      text-decoration: underline;
+      font-size: 0.9em;
+      margin-left: 10px; }
+  div.pretty_item_box.green div.pretty_item_box_content div.pretty_item_box_link div.pretty_item_box_link_bottom {
+    background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/03/30/37588_2420928423.gif'); }
+div.pretty_item_box.green div.pretty_item_box_bottom {
+  background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/03/29/67154_2043688470.gif'); }
+
+div.pretty_item_box.red a img {
+  border: 3px solid #ff3b42; }
+div.pretty_item_box.red .pretty_item_box_title {
+  color: #ff3b42; }
+div.pretty_item_box.red div.pretty_item_box_top {
+  background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/04/10/37491_1259303924.gif');
+  padding: 0;
+  margin: 0; }
+div.pretty_item_box.red div.pretty_item_box_content {
+  background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/04/10/37469_1281863869.gif'); }
+  div.pretty_item_box.red div.pretty_item_box_content div.pretty_item_box_link div.pretty_item_box_link_top {
+    background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/04/10/37588_252424500.gif'); }
+  div.pretty_item_box.red div.pretty_item_box_content div.pretty_item_box_link div.pretty_item_box_link_content {
+    background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/04/10/37539_1915657672.gif'); }
+    div.pretty_item_box.red div.pretty_item_box_content div.pretty_item_box_link div.pretty_item_box_link_content a {
+      color: #ff3b42;
+      font-weight: bold;
+      text-decoration: underline;
+      font-size: 0.9em;
+      margin-left: 10px; }
+  div.pretty_item_box.red div.pretty_item_box_content div.pretty_item_box_link div.pretty_item_box_link_bottom {
+    background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/04/10/37561_1221678999.gif'); }
+div.pretty_item_box.red div.pretty_item_box_bottom {
+  background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/04/10/37512_1332696861.gif'); }
+
+div.pretty_item_box.purple a img {
+  border: 3px solid #9041a1; }
+div.pretty_item_box.purple .pretty_item_box_title {
+  color: #9041a1; }
+div.pretty_item_box.purple div.pretty_item_box_top {
+  background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/04/14/51604_4061418056.gif');
+  padding: 0;
+  margin: 0; }
+div.pretty_item_box.purple div.pretty_item_box_content {
+  background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/04/14/51561_4039629497.gif'); }
+  div.pretty_item_box.purple div.pretty_item_box_content div.pretty_item_box_link div.pretty_item_box_link_top {
+    background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/04/14/51696_1534427798.gif'); }
+  div.pretty_item_box.purple div.pretty_item_box_content div.pretty_item_box_link div.pretty_item_box_link_content {
+    background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/04/14/51637_212964803.gif'); }
+    div.pretty_item_box.purple div.pretty_item_box_content div.pretty_item_box_link div.pretty_item_box_link_content a {
+      color: #9041a1;
+      font-weight: bold;
+      text-decoration: underline;
+      font-size: 0.9em;
+      margin-left: 10px; }
+  div.pretty_item_box.purple div.pretty_item_box_content div.pretty_item_box_link div.pretty_item_box_link_bottom {
+    background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/04/14/51666_2946543174.gif'); }
+div.pretty_item_box.purple div.pretty_item_box_bottom {
+  background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/04/14/55928_867646684.gif'); }
+
+.you_are_here_left {
+  background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/03/22/32661_2746848705.gif');
+  width: 263px;
+  height: 60px;
+  position: absolute; }
+
+.you_are_here_right {
+  background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/03/22/36855_516167705.gif');
+  width: 263px;
+  height: 60px;
+  position: absolute; }
+
+#frame {
+  width: 925px;
+  position: absolute;
+  left: 50%;
+  margin-left: -462px; }
+  #frame #header_left {
+    height: 267px;
+    width: 504px;
+    background: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2011/02/10/45270_918321498.gif') top left no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0; }
+  #frame #header #logo {
+    width: 522px;
+    position: absolute;
+    left: -17px; }
+  #frame #header #logo.not-home {
+    background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/04/02/57214_3113682153.png');
+    background-position: 148px 20px;
+    background-repeat: no-repeat; }
+  #frame #header #header_info {
+    padding: 0 0 0 25px;
+    position: absolute;
+    top: 160px;
+    width: 305px; }
+    #frame #header #header_info #date {
+      color: white;
+      font-weight: bold;
+      height: 20px;
+      overflow: hidden;
+      font-size: 0.9em; }
+    #frame #header #header_info #tagline div {
+      text-transform: uppercase;
+      color: #f52c3f;
+      font: normal 1em "Arial black", Arial, sans-serif;
+      height: 20px; }
+  #frame #header #search {
+    position: absolute;
+    top: 118px;
+    left: 350px;
+    padding-top: 34px;
+    background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2011/02/10/45171_1273241513.png');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 200px;
+    z-index: 110; }
+    #frame #header #search #search_terms {
+      margin: 25px 0 0 14px;
+      width: 124px;
+      border: 2px solid #96bc2b;
+      color: #384c8b; }
+    #frame #header #search .submit {
+      width: 28px;
+      height: 21px;
+      background: #96bc2b url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/03/20/43863_1697844566.gif') top right no-repeat;
+      border: 0; }
+  #frame #header_right {
+    height: 267px;
+    background: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2011/header_right.gif') top left no-repeat;
+    width: 420px;
+    position: absolute;
+    left: 504px;
+    z-index: 15; }
+  #frame #header .shadow {
+    display: none; }
+  #frame #header #header_photo {
+    position: absolute;
+    left: 543px;
+    top: 0;
+    height: 300px;
+    width: 404px;
+    z-index: 40;
+    background-repeat: no-repeat; }
+  #frame #header .random0 {
+    background: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2011/02/10/43419_2177326938.png') top left no-repeat; }
+  #frame #header .random1 {
+    background: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2011/02/10/43464_4192485344.png') top left no-repeat; }
+  #frame #header .random2 {
+    background: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2011/02/10/43588_3380747445.png') top left no-repeat; }
+  #frame #header .random3 {
+    background: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2011/02/10/43627_1330070237.png') top left no-repeat; }
+  #frame #header .random4 {
+    background: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2011/02/10/43648_2509645774.png') top left no-repeat; }
+  #frame #header .all {
+    background: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2011/02/10/43706_4021178902.png') top left no-repeat; }
+  #frame #header #header_photo.all {
+    left: 504px; }
+  #frame #header #your_name {
+    background: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/09/09/40578_203012436.png') top left no-repeat;
+    display: none;
+    width: 107px;
+    height: 38px;
+    position: absolute;
+    left: 652px;
+    top: 172px;
+    text-align: center;
+    z-index: 300;
+    padding-top: 2px; }
+    #frame #header #your_name p {
+      color: white;
+      font-family: Comic Sans MS;
+      font-size: 13px;
+      line-height: 17px;
+      height: 16px;
+      margin: 0 0 0 5px; }
+    #frame #header #your_name p.name {
+      color: #b4d223; }
+  #frame #header #header_about a {
+    display: block;
+    height: 66px;
+    width: 142px;
+    background: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2011/header_about_off.png') top right no-repeat;
+    position: absolute;
+    top: 6px;
+    left: 500px;
+    margin-left: 1px;
+    z-index: 50; }
+  #frame #header #header_about a:hover {
+    background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2011/header_about_over.png'); }
+  #frame #header #header_feedback a {
+    height: 55px;
+    width: 143px;
+    background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2011/freedback_off.png');
+    background-position: top right;
+    position: absolute;
+    top: 155px;
+    right: 16px;
+    z-index: 100; }
+  #frame #header #header_feedback a:hover {
+    background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2011/freedback_on.png'); }
+  #frame div#inner_frame_ad {
+    position: absolute;
+    top: 308px;
+    left: 0;
+    z-index: 2;
+    margin: 0;
+    padding: 0;
+    z-index: 35; }
+  #frame div#inner_frame {
+    position: absolute;
+    top: 208px;
+    left: 0;
+    z-index: 2;
+    margin: 0;
+    padding: 0;
+    z-index: 40; }
+  #frame #top_nav_background {
+    background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2011/arc_top.gif');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    position: absolute;
+    top: 256px;
+    left: 0; }
+  #frame #top_nav_background, #frame ul#top_nav {
+    height: 85px;
+    width: 882px; }
+  #frame ul#top_nav {
+    position: relative;
+    top: 7px;
+    padding: 0 0 0 12px;
+    margin: 0; }
+    #frame ul#top_nav li {
+      list-style: none;
+      float: left; }
+      #frame ul#top_nav li a {
+        background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2012/trivia/header_trivia_off.png');
+        background-repeat: no-repeat;
+        display: block;
+        margin-top: -7px;
+        height: 77px; }
+      #frame ul#top_nav li a:hover {
+        background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2012/header_nav_over.png');
+        height: 83px; }
+    #frame ul#top_nav li#top_nav_blogs a {
+      width: 107px;
+      background-position: 0 0; }
+    #frame ul#top_nav li#top_nav_snaps a {
+      width: 107px;
+      background-position: -107px 0; }
+    #frame ul#top_nav li#top_nav_news a {
+      width: 107px;
+      background-position: -213px 0; }
+    #frame ul#top_nav li#top_nav_video a {
+      width: 106px;
+      background-position: -320px 0; }
+    #frame ul#top_nav li#top_nav_play a {
+      width: 108px;
+      background-position: -426px 0; }
+    #frame ul#top_nav li#top_nav_songs a {
+      width: 107px;
+      background-position: -533px 0; }
+    #frame ul#top_nav li#top_nav_help a {
+      width: 111px;
+      background-position: -640px 0; }
+    #frame ul#top_nav li#top_nav_send a {
+      width: 106px;
+      background-position: -750px 0; }
+  #frame #content_frame {
+    width: 880px;
+    margin-left: 1px; }
+    #frame #content_frame #content {
+      padding: 0; }
+  #frame #content_frame, #frame div#videos ul#videos_playlist_header, #frame #play_content, #frame #songs_content, #frame #fun_game_frame {
+    background: white url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2011/arc_top.gif') no-repeat -1px -37px; }
+  #frame div#videos ul#videos_playlist_header {
+    background-position: -6px -37px; }
+  #frame #footer {
+    position: relative;
+    background: #384c8b url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2011/bottom_rounded.png') 0 0 no-repeat;
+    font: normal 0.7em Comic Sans MS;
+    color: white;
+    text-align: center;
+    clear: both; }
+    #frame #footer a {
+      color: white;
+      text-decoration: underline; }
+    #frame #footer a:hover {
+      color: #fff200; }
+    #frame #footer #footer_logos a {
+      text-decoration: none; }
+    #frame #footer #footer_logos img {
+      margin-right: 5px; }
+  #frame #dots {
+    height: 40px;
+    width: 745px;
+    background: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/dots.png') no-repeat;
+    margin: auto;
+    position: relative;
+    top: 50px;
+    margin-bottom: 75px; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+div#top-ad {
+  background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2011/top-ad-bg.gif');
+  background-repeat: no-repeat;
+  height: 95px;
+  padding-left: 15px;
+  padding-top: 5px;
+  width: 905px;
+  margin-left: -25px;
+  z-index: 10; }
+
+#topadbg {
+  background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/03/29/51685_2804264831.gif');
+  background-position: right top;
+  background-repeat: no-repeat;
+  width: 905px;
+  height: 100px;
+  z-index: 10; }
+
+#sideadbg {
+  position: absolute;
+  top: 0;
+  left: 905px;
+  width: 204px;
+  height: 900px;
+  background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/03/29/55601_1797568958.png');
+  background-repeat: no-repeat;
+  z-index: 10; }
+
+#side-ad {
+  position: absolute;
+  background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/03/29/52569_3917433304.gif');
+  background-repeat: no-repeat;
+  width: 204px;
+  height: 670px;
+  top: 190px;
+  left: 914;
+  padding: 27px 10px 0 20px; }
+
+#loginbutton {
+  position: absolute;
+  top: 119px;
+  left: 485px;
+  padding: 30px 0 0 88px;
+  z-index: 99;
+  background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2011/02/10/43887_1065141065.png'); }
+  #loginbutton a {
+    display: block;
+    width: 74px;
+    height: 55px;
+    background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2011/headerlogin_off.png'); }
+    #loginbutton a:hover {
+      background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2011/headerlogin_on.png'); }
+  #loginbutton.logout a {
+    background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2011/02/10/43727_647080558.png'); }
+    #loginbutton.logout a:hover {
+      background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2011/02/10/43756_321734433.png'); }
+
+#header {
+  position: relative;
+  z-index: 30; }
+
+/* jqModal base Styling courtesy of */
+/* Brice Burgess <bhb@iceburg.net> */
+/* The Window's CSS z-index value is respected (takes priority). If none is supplied, */
+/* the Window's z-index value will be set to 3000 by default (via jqModal.js). */
+.jqmWindow {
+  display: none;
+  position: relative;
+  top: 0;
+  left: 50%;
+  margin-left: -400px;
+  width: 600px;
+  padding: 12px; }
+
+#searchdiv-close {
+  position: relative;
+  top: 100px;
+  left: 540px; }
+
+.unsubconfirm {
+  width: 828px;
+  height: 268px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+  background-color: transparent; }
+
+#update_msg div {
+  margin: 0 auto;
+  padding: 1em;
+  border: 1px solid violet;
+  color: purple;
+  background-color: #ffffdd;
+  width: 923px; }
+  #update_msg div a {
+    color: purple;
+    border-bottom: 1px solid purple; }
+    #update_msg div a:hover {
+      color: violet;
+      border-bottom: 1px solid violet; }
+  #update_msg div a.close {
+    float: right;
+    margin-top: -1em;
+    border-bottom: none; }
+
+#top_logo_ad_wrap {
+  position: absolute;
+  top: 10px;
+  left: 767px;
+  width: 196px;
+  height: 119px;
+  background: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/07/09/47098_606794808.gif') top left no-repeat;
+  z-index: 12; }
+  #top_logo_ad_wrap #top_logo_ad {
+    position: absolute;
+    left: 76px;
+    top: 15px; }
+
+.modal {
+  display: none;
+  position: absolute;
+  z-index: 200; }
+
+#login_modal {
+  top: -110px;
+  left: 360px;
+  width: 451px;
+  z-index: 10000; }
+  #login_modal span {
+    margin-left: -200cm; }
+  #login_modal a {
+    color: white;
+    text-decoration: underline; }
+  #login_modal .header {
+    height: 70px;
+    background: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/09/07/73273_1732604389.png') top left no-repeat; }
+    #login_modal .header a.register {
+      dispay: block;
+      width: 366px;
+      height: 100%;
+      float: left; }
+    #login_modal .header a.close {
+      float: right;
+      dispay: block;
+      height: 40%;
+      width: 85px; }
+  #login_modal .content {
+    background: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/09/07/73273_1732604389.png') bottom left no-repeat; }
+    #login_modal .content form {
+      background-color: #fdf285;
+      margin-left: 52px;
+      padding-bottom: 4px;
+      width: 381px; }
+      #login_modal .content form input {
+        float: left;
+        margin-right: 5px;
+        margin-top: 9px;
+        width: 92px; }
+      #login_modal .content form label {
+        float: left;
+        background-color: #fffad2;
+        height: 30px;
+        width: 122px;
+        background-repeat: no-repeat;
+        margin: 4px 9px 0;
+        padding: 4px 10px 0;
+        color: red;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 12px; }
+      #login_modal .content form label.username {
+        background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/09/07/73299_3143581229.png');
+        background-position: -210px top; }
+      #login_modal .content form label.password {
+        background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/09/07/73299_3143581229.png');
+        background-position: -210px bottom; }
+      #login_modal .content form .findpassword {
+        clear: left; }
+    #login_modal .content .telephone {
+      display: none; }
+    #login_modal .content .msg {
+      color: red;
+      display: block;
+      font-size: 11px;
+      padding-left: 20px;
+      padding-top: 10px; }
+    #login_modal .content p {
+      color: white;
+      float: left;
+      font-size: 12.5px;
+      font-weight: bold;
+      margin-top: 3px;
+      padding-bottom: 14px;
+      text-align: right;
+      text-indent: 50px;
+      width: 318px; }
+    #login_modal .content a.submit {
+      background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/09/07/73299_3143581229.png');
+      display: block;
+      float: right;
+      height: 36px;
+      margin-right: 13px;
+      margin-top: -16px;
+      width: 107px; }
+
+.box_ad_container {
+  width: 300px;
+  height: 255px;
+  background: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/04/02/35843_3087729168.png') no-repeat;
+  padding: 15px 8px 0 8px; }
+
+#comments_modal {
+  background: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/10/08/50735_1678011381.png') top left no-repeat;
+  width: 448px;
+  height: 362px;
+  left: 206px;
+  top: 802px;
+  z-index: 3000; }
+  #comments_modal .header, #comments_modal .footer {
+    height: 90px;
+    overflow: hidden; }
+  #comments_modal h2 {
+    float: left;
+    margin: 0;
+    padding: 99px 0;
+    width: 75%; }
+  #comments_modal .close {
+    float: right;
+    height: 50px;
+    font-size: 50px;
+    overflow: hidden;
+    width: 25%; }
+    #comments_modal .close a {
+      padding: 101%; }
+  #comments_modal textarea, #comments_modal .confirm {
+    font-family: Comic Sans MS, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 60px;
+    width: 75%; }
+  #comments_modal textarea {
+    background: #473a26;
+    border: none;
+    color: white;
+    font-style: italic;
+    height: 145px;
+    margin-top: 50px; }
+  #comments_modal .confirm {
+    color: #afe416; }
+  #comments_modal .telephone, #comments_modal #comments_thankyou {
+    display: none; }
+  #comments_modal .footer {
+    width: 366px;
+    margin-left: 15%; }
+  #comments_modal .cancel {
+    float: left;
+    overflow: hidden;
+    height: 100%;
+    width: 32%; }
+    #comments_modal .cancel a {
+      padding: 101%;
+      height: 90px;
+      font-size: 90px; }
+    #comments_modal .cancel .content {
+      height: 190px; }
+  #comments_modal .submit {
+    background: transparent;
+    height: 100%;
+    width: 200px;
+    float: right; }
+    #comments_modal .submit button {
+      background: transparent;
+      display: block;
+      border: none;
+      cursor: pointer;
+      height: 90px;
+      width: 200px;
+      text-indent: -200cm; }
+
+#comments_thanks_modal {
+  width: 448px;
+  height: 362px;
+  left: 206px;
+  top: 802px;
+  z-index: 3000; }
+  #comments_thanks_modal .close {
+    float: right;
+    height: 50px;
+    overflow: hidden;
+    width: 25%; }
+    #comments_thanks_modal .close a {
+      padding: 101%;
+      height: 50px; }
+  #comments_thanks_modal .content {
+    background: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/10/08/50735_1678011381.png') top left no-repeat;
+    height: 254px;
+    width: 100%; }
+  #comments_thanks_modal .confirm {
+    color: #afe416;
+    clear: right;
+    font-family: Comic Sans MS, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 60px;
+    padding-top: 105px;
+    width: 75%; }
+  #comments_thanks_modal .footer {
+    background: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/10/08/52516_950728245.png') bottom left no-repeat;
+    height: 108px; }
+
+#comments.poll {
+  background-color: #f5fdd7;
+  color: #41558a;
+  font-family: Verdana, Arial, sans-serif;
+  padding: 0;
+  margin: 0; }
+  #comments.poll .poll {
+    background-position: bottom left;
+    padding-bottom: 23px;
+    width: 385px;
+    background-color: transparent; }
+  #comments.poll .header {
+    font-size: 13px;
+    font-weight: bold;
+    background-position: top left;
+    padding-top: 83px; }
+  #comments.poll div.header div {
+    background-color: #fffcd4;
+    margin: 0 41px 0 48px;
+    padding: 4px 6px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px; }
+  #comments.poll .choices {
+    margin: 5px 16px 0 52px;
+    padding: 0; }
+    #comments.poll .choices form {
+      display: block;
+      max-height: 250px;
+      overflow-y: auto; }
+    #comments.poll .choices input {
+      float: right;
+      margin: 0; }
+    #comments.poll .choices div {
+      margin: 5px 0;
+      padding: 0;
+      background-repeat: no-repeat; }
+      #comments.poll .choices div p {
+        margin-left: 28px;
+        margin-top: 5px;
+        margin-bottom: 8px;
+        background-image: none;
+        background-color: #cbeef7;
+        width: 232px;
+        font-family: Verdana;
+        font-size: 11px;
+        font-weight: bold;
+        color: #4a6d65;
+        padding: 6px 4px 6px 9px;
+        border-radius: 8px;
+        -moz-border-radius: 8px;
+        -webkit-border-radius: 8px; }
+    #comments.poll .choices em {
+      background-repeat: no-repeat;
+      height: 25px;
+      width: 25px;
+      float: left;
+      margin-top: 1px;
+      text-indent: -100cm; }
+    #comments.poll .choices em.number1 {
+      background-position: -387px 0; }
+    #comments.poll .choices em.number2 {
+      background-position: -387px -25px; }
+    #comments.poll .choices em.number3 {
+      background-position: -387px -50px; }
+    #comments.poll .choices em.number4 {
+      background-position: -387px -75px; }
+    #comments.poll .choices em.number5 {
+      background-position: -387px -100px; }
+    #comments.poll .choices em.number6 {
+      background-position: -387px -125px; }
+    #comments.poll .choices em.number7 {
+      background-position: -387px -150px; }
+    #comments.poll .choices em.number8 {
+      background-position: -387px -175px; }
+    #comments.poll .choices em.number9 {
+      background-position: -387px -200px; }
+  #comments.poll .submit {
+    position: relative;
+    top: 16px;
+    left: 40px;
+    width: 80px;
+    margin: 0; }
+  #comments.poll .submit a {
+    display: block;
+    background-position: -390px -335px;
+    text-indent: -100cm;
+    height: 30px; }
+  #comments.poll .submit, #comments.poll .submit a:hover {
+    background-position: -390px -375px; }
+  #comments.poll .results {
+    margin: 8px 5px 30px 48px;
+    overflow: hidden;
+    display: none;
+    padding-bottom: 6px;
+    max-height: 250px;
+    overflow-y: auto; }
+    #comments.poll .results div {
+      float: left;
+      line-height: 15px; }
+    #comments.poll .results .graph {
+      background-color: red;
+      background-position: -387px -409px;
+      height: 10px;
+      line-height: 10px;
+      margin: 4px 9px 0; }
+    #comments.poll .results .percent {
+      clear: left;
+      font-weight: bold;
+      font-size: 10.5px;
+      width: 24px; }
+    #comments.poll .results .name {
+      font-size: 13px;
+      width: 160px; }
+  #comments.poll .title, #comments.poll .footer {
+    display: none; }
+
+#videos #comments.poll, #snaps #snaps_bottom #comments.poll {
+  background-color: transparent; }
+  #videos #comments.poll .content, #snaps #snaps_bottom #comments.poll .content {
+    background-image: none; }
+  #videos #comments.poll .submit a, #videos #comments.poll .submit a:hover, #snaps #snaps_bottom #comments.poll .submit a, #snaps #snaps_bottom #comments.poll .submit a:hover {
+    background-position: -388px -375px; }
+  #videos #comments.poll .submit, #snaps #snaps_bottom #comments.poll .submit {
+    top: 21px;
+    left: 40px;
+    width: 84px; }
+    #videos #comments.poll .submit a, #snaps #snaps_bottom #comments.poll .submit a {
+      background-position: -388px -335px;
+      height: 32px; }
+
+#blogs #comments.poll .poll, #blogs #comments.poll .header, #blogs #comments.poll .choices em, #blogs #comments.poll .submit, #blogs #comments.poll .submit a, #blogs #comments.poll .graph {
+  background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/12/04/54123_1755461258.png'); }
+#blogs #comments.poll .poll {
+  width: 383px; }
+
+#snaps #comments.poll .poll, #snaps #comments.poll .header, #snaps #comments.poll .choices em, #snaps #comments.poll .submit, #snaps #comments.poll .submit a, #snaps #comments.poll .graph {
+  background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/12/04/54166_1437407994.png'); }
+
+#videos #comments.poll {
+  padding-bottom: 6px;
+  position: relative;
+  top: -21px; }
+  #videos #comments.poll .poll, #videos #comments.poll .header, #videos #comments.poll .choices em, #videos #comments.poll .submit, #videos #comments.poll .submit a, #videos #comments.poll .graph {
+    background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2009/12/04/54278_2218843312.png'); }
+
+#blogs_content {
+  position: relative; }
+
+#snaps #comments p, #videos #comments p, #comments.poll .header div, #comments.poll .choices p, #comments.poll .choices p {
+  border-width: 0;
+  border-color: white; }
+
+#page.email_signup {
+  /* style */
+  /* color guide        
+   * light blue :... #364c8e        
+   * dark blue :.... #4C6199 
+   * orange :....... #ff9934   */
+  background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/images/email_signup.png');
+  font-family: arial, sans-serif;
+  /* layout reset */
+  /* layout */ }
+  #page.email_signup input {
+    border: 1px solid #ff9934;
+    color: #4c6199;
+    font-family: "comic sans ms", sans-serif;
+    font-size: 15px;
+    height: 24px;
+    line-height: 24px;
+    text-indent: 7px;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px; }
+  #page.email_signup html, #page.email_signup body, #page.email_signup div, #page.email_signup span, #page.email_signup h1, #page.email_signup h2, #page.email_signup h3, #page.email_signup h4, #page.email_signup h5, #page.email_signup h6, #page.email_signup p, #page.email_signup img, #page.email_signup dl, #page.email_signup dt, #page.email_signup dd, #page.email_signup ol, #page.email_signup ul, #page.email_signup li, #page.email_signup form, #page.email_signup label, #page.email_signup table, #page.email_signup tbody, #page.email_signup tr, #page.email_signup th, #page.email_signup td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%; }
+  #page.email_signup body {
+    line-height: 1; }
+  #page.email_signup #page {
+    position: relative;
+    height: 738px;
+    width: 721px;
+    margin-left: 18%; }
+    #page.email_signup #page:not(#ie) {
+      margin: 0 auto; }
+  #page.email_signup table {
+    width: 100%; }
+  #page.email_signup td {
+    width: 50%; }
+  #page.email_signup .header {
+    height: 260px;
+    overflow: hidden; }
+    #page.email_signup .header h1, #page.email_signup .header h2 {
+      padding: 0% 101%; }
+  #page.email_signup ol {
+    position: absolute;
+    left: 73px;
+    top: 440px; }
+    #page.email_signup ol li {
+      height: 68px;
+      width: 100%;
+      padding: 0;
+      overflow: hidden; }
+      #page.email_signup ol li label {
+        display: block;
+        height: 20px;
+        margin-left: -200cm; }
+      #page.email_signup ol li input {
+        margin-top: 5px;
+        width: 270px; }
+      #page.email_signup ol li select {
+        margin-right: 4px;
+        margin-top: 8px;
+        padding: 0 0.4em; }
+  #page.email_signup .submit {
+    height: 60px;
+    width: 146px;
+    position: absolute;
+    left: 268px;
+    top: 640px; }
+    #page.email_signup .submit button {
+      background: transparent;
+      cursor: pointer;
+      border: 0 none;
+      height: 60px;
+      width: 146px;
+      padding: 60px 0 0;
+      overflow: hidden; }
+  #page.email_signup .close {
+    height: 57px;
+    left: 579px;
+    position: absolute;
+    overflow: hidden;
+    top: 282px;
+    width: 150px; }
+    #page.email_signup .close a {
+      padding: 30px 180px;
+      font-size: 57px; }
+  #page.email_signup .warning {
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+    height: 18px;
+    line-height: 18px;
+    display: none; }
+  #page.email_signup .message {
+    width: 100%;
+    overflow: hidden; }
+    #page.email_signup .message p {
+      padding: 0% 101%; }
+
+#special_bumper {
+  background: url(https://web.archive.org/web/20120915102538im_/http://www.icarly.com/bumper_files/bg.jpg?v=2) no-repeat; }
+
+/* iNews navigation button */
+#frame ul#top_nav li#top_nav_news a.inews {
+  background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2012/nav_inews.png');
+  background-position: top left;
+  height: 76px; }
+  #frame ul#top_nav li#top_nav_news a.inews:hover {
+    background-position: bottom left;
+    height: 83px; }
+#frame ul#top_nav li#top_nav_news a.kca {
+  background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/7/image/2012/kca-nav.png');
+  background-position: top left; }
+  #frame ul#top_nav li#top_nav_news a.kca:hover {
+    background-position: bottom left; }
+#frame ul#top_nav li#top_nav_news a.iomg, #frame ul#top_nav li#top_nav_news a.iomg:hover {
+  background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2011/04/01/40024_3207462021.png'); }
+#frame ul#top_nav li#top_nav_news a.iparty, #frame ul#top_nav li#top_nav_news a.iparty:hover {
+  background-image: url('https://web.archive.org/web/20120915102538if_/web/20120915102538im_/http://www.icarly.com/assets/1/image/2011/04/08/33368_1637430437.png'); }
+
+.cartoon #special_bumper {
+  background: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2011/07/26/40224_4258182276.jpg') no-repeat; }
+.cartoon #frame #header #header_photo {
+  background-image: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2011/07/26/39676_1183454669.png');
+  left: 504px; }
+
+#icarly_modal.modal {
+  background: white;
+  padding: 20px;
+  position: fixed;
+  width: 700px;
+  margin-left: -360px;
+  top: 1px;
+  left: 50%;
+  border-radius: 10px;
+  box-shadow: 0 0 40px black; }
+  #icarly_modal.modal a.close, #icarly_modal.modal a.close:visited {
+    float: right;
+    color: red;
+    font-family: "aachen", verdana, sans-serif; }
+  #icarly_modal.modal iframe, #icarly_modal.modal .clearfix {
+    clear: all; }
+
+.trivia #fun_game_frame iframe {
+  overflow: hidden; }
+.trivia #fun_game_frame:after {
+  content: "";
+  display: block;
+  height: 10px;
+  width: 100%;
+  position: absolute;
+  top: 82px;
+  left: 0;
+  z-index: 100;
+  background: url('https://web.archive.org/web/20120915102538im_/http://www.icarly.com/assets/1/image/2011/arc_top.gif') no-repeat 54px 100% transparent; }
+
+/*
+     FILE ARCHIVED ON 10:25:38 Sep 15, 2012 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 04:32:19 Sep 07, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.468
+  exclusion.robots: 0.024
+  exclusion.robots.policy: 0.014
+  esindex: 0.01
+  cdx.remote: 46.708
+  LoadShardBlock: 171.575 (3)
+  PetaboxLoader3.datanode: 230.895 (4)
+  load_resource: 129.458
+  PetaboxLoader3.resolve: 48.821
+*/
